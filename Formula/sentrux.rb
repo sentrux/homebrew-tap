@@ -1,20 +1,20 @@
 class Sentrux < Formula
   desc "Live codebase visualization and structural quality gate"
   homepage "https://github.com/sentrux/sentrux"
-  version "0.3.8"
+  version "0.3.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sentrux/sentrux/releases/download/v0.3.8/sentrux-darwin-arm64"
-      sha256 "cfac84ef54c1bde680348f45183f3a0fd12d09ce58ac61fab122f412654dedc7"
+      url "https://github.com/sentrux/sentrux/releases/download/v0.3.9/sentrux-darwin-arm64"
+      sha256 "daac5d6fff47c857cba094b484a54f017417b308f6335bba88f360eda39b8232"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sentrux/sentrux/releases/download/v0.3.8/sentrux-linux-x86_64"
-      sha256 "488ed935267e7672d11fd4842f62707fe4e80eba8ba8a7a9700e532bf7e6e2d5"
+      url "https://github.com/sentrux/sentrux/releases/download/v0.3.9/sentrux-linux-x86_64"
+      sha256 "602d75897cef364b39341a5bb720aaab260920ef72e7c9ed8f79e73fc73c49ac"
     end
   end
 
