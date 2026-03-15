@@ -7,14 +7,14 @@ class Sentrux < Formula
   on_macos do
     on_arm do
       url "https://github.com/sentrux/sentrux/releases/download/v0.4.2/sentrux-darwin-arm64"
-      sha256 "e0cb68bdef14dd471f3b28b65e39f209eb7c851fb92e8d9a7505dbb85fe69ce0"
+      sha256 "30be6a5efe01339c47e85197088a0aa0a5ac16daa02e48c31457d355c879dd9c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sentrux/sentrux/releases/download/v0.4.2/sentrux-linux-x86_64"
-      sha256 "6664a9b83a7badf3a9d2920d60be0055851bcd50a0f44f3aab2df8aa485e5402"
+      sha256 "00908a6fa648ad1ddb1656473261543e222c1a3450f0609a0a83334871fe498b"
     end
   end
 
